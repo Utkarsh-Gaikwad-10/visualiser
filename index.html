@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualiser</title>
+    <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/visualiser.css">
+</head>
+<body id="">
+
+
+    <div class="container page-section-visualiser" style="margin-top: 60px;">
+      <div id="app" data-v-app="">
+        <div class="visualiser-container">
+          <div class="visualiser">
+            <!--v-if-->
+            <div class="visualiser-image">
+              <div
+                style="
+                  background-image: url('https://www.zipscreen.com/assets/images/visualiser/ZSV1BZ009.jpg');
+                "
+              ></div>
+            </div>
+            <!--v-if-->
+            <div class="visualiser-controls">
+              <div class="visualiser-controls-group">
+                <div class="visualiser-controls-main">
+                  <div class="visualiser-controls-main-label-sm">
+                    Shade Position:
+                  </div>
+                  <div class="visualiser-controls-main-label-lg">
+                    Shade Position
+                  </div>
+                  <div class="visualiser-controls-main-toggle">
+                    <div class="visualiser-controls-main-toggle-option">
+                      <div class="visualiser-controls-main-toggle-option-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 19.916 13.734"
+                        >
+                          <polygon
+                            points="19.916 13.734 17.916 13.734 17.916 2 2 2 2 13.734 0 13.734 0 0 19.916 0 19.916 13.734"
+                            fill="#3a3a3a"
+                          ></polygon>
+                        </svg>
+                      </div>
+                      Open
+                    </div>
+                    <div class="visualiser-controls-main-toggle-option active">
+                      <div class="visualiser-controls-main-toggle-option-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 19.916 13.734"
+                        >
+                          <rect
+                            x=".959"
+                            y="1.367"
+                            width="18"
+                            height="12"
+                            fill="#707070"
+                            opacity=".673"
+                          ></rect>
+                          <polygon
+                            points="19.916 13.734 17.916 13.734 17.916 2 2 2 2 13.734 0 13.734 0 0 19.916 0 19.916 13.734"
+                            fill="#3a3a3a"
+                          ></polygon>
+                        </svg>
+                      </div>
+                      Closed
+                    </div>
+                  </div>
+                </div>
+                <div class="visualiser-controls-divider"><div></div></div>
+                <div class="visualiser-controls-main frame-control">
+                  <div class="visualiser-controls-main-label-sm">
+                    Frame color: Bronze
+                  </div>
+                  <div class="visualiser-controls-main-label-lg">Frame</div>
+                  <div class="visualiser-controls-main-info">
+                    Color : Bronze
+                  </div>
+                  <div class="visualiser-controls-main-grid">
+                    <div class="visualiser-controls-main-grid-option">
+                      <div
+                        class="visualiser-controls-main-grid-swatch"
+                        style="background-color: rgb(0, 0, 0)"
+                      ></div>
+                    </div>
+                    <div class="visualiser-controls-main-grid-option active">
+                      <div
+                        class="visualiser-controls-main-grid-swatch"
+                        style="background-color: rgb(85, 78, 82)"
+                      ></div>
+                    </div>
+                    <div class="visualiser-controls-main-grid-option">
+                      <div
+                        class="visualiser-controls-main-grid-swatch"
+                        style="background-color: rgb(101, 108, 109)"
+                      ></div>
+                    </div>
+                    <div class="visualiser-controls-main-grid-option">
+                      <div
+                        class="visualiser-controls-main-grid-swatch"
+                        style="background-color: rgb(222, 203, 174)"
+                      ></div>
+                    </div>
+                    <div class="visualiser-controls-main-grid-option">
+                      <div
+                        class="visualiser-controls-main-grid-swatch"
+                        style="background-color: rgb(255, 255, 255)"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="visualiser-controls-divider"><div></div></div>
+                <div class="visualiser-controls-main fabric-control">
+                  <div class="visualiser-controls-main-label-sm">
+                    Fabric tone:
+                  </div>
+                  <div class="visualiser-controls-main-label-lg">Fabric</div>
+                  <div class="visualiser-controls-main-info">
+                    Color : X-Weave Onyx
+                  </div>
+                  <div class="visualiser-controls-main-grid">
+                    <div class="visualiser-controls-main-grid-option active">
+                      <div
+                        class="visualiser-controls-main-grid-swatch"
+                        style="background-color: rgb(67, 67, 67)"
+                      ></div>
+                    </div>
+                    <div class="visualiser-controls-main-grid-option">
+                      <div
+                        class="visualiser-controls-main-grid-swatch"
+                        style="background-color: rgb(252, 252, 252)"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="visualiser-controls-toggle">
+                <div class="visualiser-controls-toggle-option active">
+                  Outdoor
+                </div>
+                <div class="visualiser-controls-toggle-option">Indoor</div>
+              </div>
+              <div class="visualiser-controls-toggle">
+                <div class="visualiser-controls-toggle-option active">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                    <path
+                      class="icon-fill"
+                      d="m22.381,17.2c-.121.596-.337,1.169-.638,1.697-1.613,2.879-5.255,3.905-8.134,2.291-2.879-1.613-3.905-5.255-2.291-8.134,1.161-2.071,3.437-3.258,5.799-3.025.303.029.602.083.897.16.869.217,1.675.631,2.357,1.212.942.787,1.617,1.846,1.933,3.032.078.293.135.592.171.893.066.625.035,1.257-.09,1.873"
+                    ></path>
+                    <path
+                      class="icon-stroke"
+                      d="m23.009,15.386c-.134-1.361-.684-2.648-1.577-3.685-.861-.988-2.001-1.692-3.269-2.021-3.48-.902-7.032,1.187-7.935,4.666s1.187,7.032,4.666,7.935c3.48.902,7.032-1.187,7.935-4.666.107-.412.173-.833.198-1.258.019-.323.013-.648-.019-.97m-1.166,1.7c-.11.541-.306,1.061-.579,1.541-1.465,2.614-4.771,3.545-7.385,2.08-2.614-1.465-3.545-4.771-2.08-7.385,1.054-1.88,3.12-2.958,5.265-2.747.275.027.547.075.814.145.789.197,1.521.573,2.14,1.1.855.715,1.468,1.676,1.755,2.753.071.266.123.537.155.811.06.568.032,1.141-.082,1.7"
+                    ></path>
+                    <path
+                      class="icon-stroke"
+                      d="m29.008,15.458h-4.154c-.299,0-.542.243-.542.542,0,.299.243.541.542.542h4.154c.299,0,.542-.243.542-.542,0-.299-.243-.541-.542-.542"
+                    ></path>
+                    <path
+                      class="icon-stroke"
+                      d="m17.043,7.648V3.493c0-.299-.243-.542-.542-.542-.299,0-.541.243-.542.542v4.155c0,.299.243.542.542.542.299,0,.541-.243.542-.542"
+                    ></path>
+                    <path
+                      class="icon-stroke"
+                      d="m15.958,24.352v4.154c0,.299.243.542.542.542.299,0,.541-.243.542-.542v-4.154c0-.299-.243-.542-.542-.542-.299,0-.541.243-.542.542"
+                    ></path>
+                    <path
+                      class="icon-stroke"
+                      d="m7.147,16.542c.299,0,.542-.243.542-.542,0-.299-.243-.541-.542-.542H2.992c-.299,0-.542.243-.542.542,0,.299.243.541.542.542h4.155Z"
+                    ></path>
+                    <path
+                      class="icon-stroke"
+                      d="m10.211,21.523l-2.572,2.572-.366.366c-.219.204-.232.547-.028.766.204.219.547.232.766.028.01-.009.019-.018.028-.028l2.572-2.571.366-.366c.219-.204.232-.547.028-.766-.204-.219-.547-.232-.766-.028-.01.009-.019.018-.028.028"
+                    ></path>
+                    <path
+                      class="icon-stroke"
+                      d="m22.79,10.475l2.571-2.571.366-.366c.204-.219.191-.562-.028-.766-.208-.193-.53-.193-.738,0l-2.571,2.571-.366.366c-.219.204-.232.547-.028.766.204.219.547.232.766.028.01-.009.019-.018.028-.028"
+                    ></path>
+                    <path
+                      class="icon-stroke"
+                      d="m23.156,21.889l-.366-.366c-.219-.204-.562-.191-.766.028-.193.208-.193.53,0,.738l2.572,2.571.366.366c.219.204.562.191.766-.028.193-.208.193-.53,0-.738l-2.571-2.571"
+                    ></path>
+                    <path
+                      class="icon-stroke"
+                      d="m9.844,10.11l.366.366c.204.219.547.232.766.028.219-.204.232-.547.028-.766-.009-.01-.018-.019-.028-.028l-2.572-2.571-.366-.366c-.204-.219-.547-.232-.766-.028-.219.204-.232.547-.028.766.009.01.018.019.028.028l2.571,2.571"
+                    ></path>
+                  </svg>
+                  Day
+                </div>
+                <div class="visualiser-controls-toggle-option">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 32">
+                    <path
+                      class="icon-fill"
+                      d="m10.93,25.498c-5.237,0-9.498-4.261-9.498-9.498S5.693,6.502,10.93,6.502c1.369,0,2.693.288,3.936.855l.997.455-.997.455c-1.464.668-2.705,1.733-3.589,3.081-.907,1.383-1.387,2.991-1.387,4.653s.48,3.27,1.387,4.653c.885,1.348,2.126,2.413,3.589,3.081l.997.455-.997.455c-1.243.567-2.568.855-3.936.855v-.002Z"
+                    ></path>
+                    <path
+                      class="icon-stroke"
+                      d="m10.93,24.998c1.331,0,2.592-.291,3.729-.809-3.108-1.418-5.269-4.549-5.269-8.188s2.161-6.771,5.269-8.188c-1.136-.518-2.398-.809-3.729-.809C5.961,7.004,1.932,11.032,1.932,16.002s4.028,8.998,8.998,8.998m0,1c-5.513,0-9.998-4.485-9.998-9.998S5.417,6.004,10.93,6.004c1.441,0,2.835.303,4.144.9l1.995.91-1.995.91c-2.845,1.298-4.684,4.155-4.684,7.278s1.839,5.981,4.684,7.278l1.995.91-1.995.91c-1.309.597-2.703.9-4.144.9Z"
+                    ></path>
+                  </svg>
+                  Night
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn visualiser-help" >?</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./JS/vendor.js"></script>
+
+  <script>
+    var VisualiserConfig = {
+      assetPath: "https://www.zipscreen.com/assets/images/visualiser",
+      locale: "us",
+    };
+  </script>
+  <script src="./JS/visualiser.js"></script>
+
+  <script src="./JS/global.js"></script>
+
+  <script
+    async=""
+    src="https://www.googletagmanager.com/gtag/js?id=G-ZR0NNRG6M8"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-3CLX8P0D58");
+  </script>
+
+  <div id="sqrx-content-container">
+    <div class="squarex_ext_modal">
+      <div class="squarex_ext_dialog-container">
+        <div id="module_dialog_root__disposableFileViewer">
+          <div
+            class="squarex_ext_dialog squarex_ext_light squarex_ext__hidden"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <iframe
+    id="_hjSafeContext_90306215"
+    title="_hjSafeContext"
+    tabindex="-1"
+    aria-hidden="true"
+    src="about:blank"
+    style="
+      display: none !important;
+      width: 1px !important;
+      height: 1px !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    "
+  ></iframe>
+  <div id="veepn-guard-alert"></div>
+  <style>
+    @font-face {
+      font-family: FigtreeVF;
+      src: url(chrome-extension://panammoooggmlehahpcjckcncfeffcoi/fonts/FigtreeVF.woff2)
+          format("woff2 supports variations"),
+        url(chrome-extension://panammoooggmlehahpcjckcncfeffcoi/fonts/FigtreeVF.woff2)
+          format("woff2-variations");
+      font-weight: 100 1000;
+      font-display: swap;
+    }
+  </style>
+  <div id="veepn-breach-alert"></div>
+  <style>
+    @font-face {
+      font-family: FigtreeVF;
+      src: url(chrome-extension://panammoooggmlehahpcjckcncfeffcoi/fonts/FigtreeVF.woff2)
+          format("woff2 supports variations"),
+        url(chrome-extension://panammoooggmlehahpcjckcncfeffcoi/fonts/FigtreeVF.woff2)
+          format("woff2-variations");
+      font-weight: 100 1000;
+      font-display: swap;
+    }
+  </style>
+</body>
